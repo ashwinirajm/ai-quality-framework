@@ -1,0 +1,5 @@
+pytest
+google-generativeai
+sentence-transformers
+scikit-learn
+python-dotenv
