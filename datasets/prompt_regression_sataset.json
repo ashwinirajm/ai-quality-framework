@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What is KYC?",
+    "expected_answer": "KYC is customer identity verification."
+  },
+  {
+    "question": "What is AML in banking?",
+    "expected_answer": "AML prevents financial crimes."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What is KYC?",
+    "expected_answer": "KYC is a customer identity verification process used by financial institutions."
+  },
+  {
+    "question": "What is AML in banking?",
+    "expected_answer": "AML stands for Anti-Money Laundering practices used to prevent financial crimes."
+  }
+]

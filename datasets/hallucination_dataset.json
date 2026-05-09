@@ -1,0 +1,10 @@
+[
+  {
+    "context": "Refunds are allowed within 30 days.",
+    "actual_answer": "Refunds are allowed within 90 days."
+  },
+  {
+    "context": "KYC verifies customer identity.",
+    "actual_answer": "KYC is used for identity verification by banks."
+  }
+]
