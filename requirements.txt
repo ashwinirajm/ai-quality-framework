@@ -1,5 +1,5 @@
 pytest
-google-generativeai
+google-genai
 sentence-transformers
 scikit-learn
 python-dotenv
