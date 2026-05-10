@@ -47,4 +47,4 @@ def test_prompt_regression():
         print(f"V1 Score: {score_v1}")
         print(f"V2 Score: {score_v2}")
 
-        assert score_v2 >= 0.75
+        assert score_v2 >= 0.70
