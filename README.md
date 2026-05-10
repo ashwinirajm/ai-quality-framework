@@ -56,63 +56,26 @@ ai-quality-framework/
 
 # Setup
 
-## 1. Clone Repository
-
-```bash
+```bash id="mini1"
 git clone <repo_url>
 cd ai-quality-framework
-```
 
----
-
-## 2. Create Virtual Environment
-
-Mac/Linux:
-
-```bash
 python3 -m venv .venv
 source .venv/bin/activate
-```
 
-Windows:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
----
-
-## 3. Install Dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 4. Configure Environment Variables
-
 Create `.env`
 
-```env
+```env id="mini2"
 GOOGLE_API_KEY=your_api_key
 ```
 
----
+Run tests:
 
-## 5. Run Tests
-
-Run all tests:
-
-```bash
+```bash id="mini3"
 pytest tests -s
-```
-
-Run specific test:
-
-```bash
-pytest tests/test_relevancy.py -s
 ```
 
 ---
