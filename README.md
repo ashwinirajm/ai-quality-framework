@@ -42,14 +42,34 @@ Built using:
 ai-quality-framework/
 │
 ├── datasets/
+│   ├── hallucination_dataset.json
+│   ├── latency_dataset.json
+│   ├── prompt_regression_dataset.json
+│   └── relevancy_dataset.json
+│
 ├── evaluators/
+│   ├── hallucination_evaluator.py
+│   └── relevancy_evaluator.py
+│
 ├── prompts/
+│   ├── prompt_v1.txt
+│   └── prompt_v2.txt
+│
 ├── services/
+│   └── gemini_service.py
+│
 ├── tests/
-├── utils/
+│   ├── test_hallucination.py
+│   ├── test_latency.py
+│   ├── test_prompt_regression.py
+│   └── test_relevancy.py
+│
 ├── .github/workflows/
+│   └── ai-evals.yml
+│
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
